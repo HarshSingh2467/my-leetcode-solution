@@ -1,0 +1,31 @@
+class Solution {
+    public boolean sumGame(String num) {
+        int n = num.length();
+        int mid = n / 2;
+        
+        int leftSum = 0;
+        int leftQ = 0;
+        int rightSum = 0;
+        int rightQ = 0;
+        
+        for (int i = 0; i < mid; i++) {
+            char c = num.charAt(i);
+            if (c == '?') {
+                leftQ++;
+            } else {
+                leftSum += c - '0';
+            }
+        }
+        
+        for (int i = mid; i < n; i++) {
+            char c = num.charAt(i);
+            if (c == '?') {
+                rightQ++;
+            } else {
+                rightSum += c - '0';
+            }
+        }
+        
+        return (leftSum - rightSum) * 2 != (rightQ - leftQ) * 9;
+    }
+}
