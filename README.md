@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/0115-distinct-subsequences) |
 | [1872-stone-game-viii](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/1872-stone-game-viii) |
 ## Minimax
 |  |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/0115-distinct-subsequences) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/HarshSingh2467/my-leetcode-solution/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
